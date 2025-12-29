@@ -27,11 +27,11 @@ This project documents a full web application vulnerability assessment conducted
 
 ## Key Findings
 
-* SQL Injection (High)
-* Stored & Reflected XSS (High)
-* Command Injection (High)
-* CSRF (Medium)
-* Missing Security Headers (Low)
+* Remote Code Execution - CVE-2012-1823
+* Source Code Disclosure - CVE-2012-1823
+* Absence of Anti-CSRF Tokens
+* Content Security Policy (CSP) Header Not Set
+* Directory Browsing
 
 ## Remediation Summary
 
